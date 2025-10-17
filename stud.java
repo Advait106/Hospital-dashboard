@@ -4,7 +4,7 @@ public class stud {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital","root","Adu@2006");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital","root","*****");
 			
 			Statement stm = con.createStatement();
 			System.out.println("Connection done");
@@ -40,3 +40,4 @@ public class stud {
 	}
 
 }
+
